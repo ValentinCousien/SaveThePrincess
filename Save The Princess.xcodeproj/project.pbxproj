@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856A36CD8AB6F786CC8D00CD /* Pods_Save_The_PrincessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A88B72C5E83E9816887CD5B /* Pods_Save_The_PrincessTests.framework */; };
+		AC08E816F0CF9FB1D3D240D6 /* Pods_Save_The_PrincessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2DC967467796CE08C01973 /* Pods_Save_The_PrincessUITests.framework */; };
+		CD8ADD19282391FB164241BC /* Pods_Save_The_Princess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E8337E13C66168EF52C93F /* Pods_Save_The_Princess.framework */; };
+		F607C8951F4CCA370003493D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8941F4CCA370003493D /* AppDelegate.swift */; };
+		F607C8971F4CCA370003493D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8961F4CCA370003493D /* LandingViewController.swift */; };
+		F607C89A1F4CCA370003493D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F607C8981F4CCA370003493D /* Main.storyboard */; };
+		F607C89D1F4CCA370003493D /* Save_The_Princess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F607C89B1F4CCA370003493D /* Save_The_Princess.xcdatamodeld */; };
+		F607C89F1F4CCA370003493D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F607C89E1F4CCA370003493D /* Assets.xcassets */; };
+		F607C8A21F4CCA370003493D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F607C8A01F4CCA370003493D /* LaunchScreen.storyboard */; };
+		F607C8AD1F4CCA370003493D /* Save_The_PrincessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8AC1F4CCA370003493D /* Save_The_PrincessTests.swift */; };
+		F607C8B81F4CCA370003493D /* Save_The_PrincessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8B71F4CCA370003493D /* Save_The_PrincessUITests.swift */; };
+		F607C8C61F4CCB5C0003493D /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8C51F4CCB5C0003493D /* Soldier.swift */; };
+		F607C8C81F4CCC100003493D /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8C71F4CCC100003493D /* Gender.swift */; };
+		F607C8CA1F4CCE900003493D /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8C91F4CCE900003493D /* Door.swift */; };
+		F607C8D01F4CF1750003493D /* Army.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607C8CF1F4CF1750003493D /* Army.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F607C8A91F4CCA370003493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F607C8891F4CCA370003493D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F607C8901F4CCA370003493D;
+			remoteInfo = "Save The Princess";
+		};
+		F607C8B41F4CCA370003493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F607C8891F4CCA370003493D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F607C8901F4CCA370003493D;
+			remoteInfo = "Save The Princess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D5AB27F7DC989ADE677696 /* Pods-Save The PrincessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The PrincessTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C5697FED3B3E17FBED4D40D /* Pods-Save The Princess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The Princess.release.xcconfig"; path = "Pods/Target Support Files/Pods-Save The Princess/Pods-Save The Princess.release.xcconfig"; sourceTree = "<group>"; };
+		1A69417AC8F2EC95FC945BDD /* Pods-Save The Princess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The Princess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Save The Princess/Pods-Save The Princess.debug.xcconfig"; sourceTree = "<group>"; };
+		1D2DC967467796CE08C01973 /* Pods_Save_The_PrincessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Save_The_PrincessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A73A25EE9DCEE3251648113 /* Pods-Save The PrincessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The PrincessTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A88B72C5E83E9816887CD5B /* Pods_Save_The_PrincessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Save_The_PrincessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDF8CE1B994448F9A005C36 /* Pods-Save The PrincessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The PrincessUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90E8337E13C66168EF52C93F /* Pods_Save_The_Princess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Save_The_Princess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30AC6EADE1DFA0E0BAF2E07 /* Pods-Save The PrincessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Save The PrincessUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F607C8911F4CCA370003493D /* Save The Princess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Save The Princess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607C8941F4CCA370003493D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F607C8961F4CCA370003493D /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		F607C8991F4CCA370003493D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F607C89C1F4CCA370003493D /* Save_The_Princess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Save_The_Princess.xcdatamodel; sourceTree = "<group>"; };
+		F607C89E1F4CCA370003493D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F607C8A11F4CCA370003493D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F607C8A31F4CCA370003493D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F607C8A81F4CCA370003493D /* Save The PrincessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save The PrincessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607C8AC1F4CCA370003493D /* Save_The_PrincessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save_The_PrincessTests.swift; sourceTree = "<group>"; };
+		F607C8AE1F4CCA370003493D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F607C8B31F4CCA370003493D /* Save The PrincessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save The PrincessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607C8B71F4CCA370003493D /* Save_The_PrincessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save_The_PrincessUITests.swift; sourceTree = "<group>"; };
+		F607C8B91F4CCA370003493D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F607C8C51F4CCB5C0003493D /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		F607C8C71F4CCC100003493D /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		F607C8C91F4CCE900003493D /* Door.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		F607C8CF1F4CF1750003493D /* Army.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Army.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F607C88E1F4CCA370003493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8ADD19282391FB164241BC /* Pods_Save_The_Princess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8A51F4CCA370003493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856A36CD8AB6F786CC8D00CD /* Pods_Save_The_PrincessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8B01F4CCA370003493D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC08E816F0CF9FB1D3D240D6 /* Pods_Save_The_PrincessUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C23E6F0695D3B59CADD7018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A69417AC8F2EC95FC945BDD /* Pods-Save The Princess.debug.xcconfig */,
+				0C5697FED3B3E17FBED4D40D /* Pods-Save The Princess.release.xcconfig */,
+				00D5AB27F7DC989ADE677696 /* Pods-Save The PrincessTests.debug.xcconfig */,
+				2A73A25EE9DCEE3251648113 /* Pods-Save The PrincessTests.release.xcconfig */,
+				E30AC6EADE1DFA0E0BAF2E07 /* Pods-Save The PrincessUITests.debug.xcconfig */,
+				6DDF8CE1B994448F9A005C36 /* Pods-Save The PrincessUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC94DCCF735E6BE62B8A1E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E8337E13C66168EF52C93F /* Pods_Save_The_Princess.framework */,
+				5A88B72C5E83E9816887CD5B /* Pods_Save_The_PrincessTests.framework */,
+				1D2DC967467796CE08C01973 /* Pods_Save_The_PrincessUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F607C8881F4CCA370003493D = {
+			isa = PBXGroup;
+			children = (
+				F607C8931F4CCA370003493D /* Save The Princess */,
+				F607C8AB1F4CCA370003493D /* Save The PrincessTests */,
+				F607C8B61F4CCA370003493D /* Save The PrincessUITests */,
+				F607C8921F4CCA370003493D /* Products */,
+				1C23E6F0695D3B59CADD7018 /* Pods */,
+				CC94DCCF735E6BE62B8A1E73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F607C8921F4CCA370003493D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F607C8911F4CCA370003493D /* Save The Princess.app */,
+				F607C8A81F4CCA370003493D /* Save The PrincessTests.xctest */,
+				F607C8B31F4CCA370003493D /* Save The PrincessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F607C8931F4CCA370003493D /* Save The Princess */ = {
+			isa = PBXGroup;
+			children = (
+				F607C8941F4CCA370003493D /* AppDelegate.swift */,
+				F607C8961F4CCA370003493D /* LandingViewController.swift */,
+				F607C8981F4CCA370003493D /* Main.storyboard */,
+				F607C89E1F4CCA370003493D /* Assets.xcassets */,
+				F607C8A01F4CCA370003493D /* LaunchScreen.storyboard */,
+				F607C8A31F4CCA370003493D /* Info.plist */,
+				F607C89B1F4CCA370003493D /* Save_The_Princess.xcdatamodeld */,
+				F607C8C51F4CCB5C0003493D /* Soldier.swift */,
+				F607C8C71F4CCC100003493D /* Gender.swift */,
+				F607C8C91F4CCE900003493D /* Door.swift */,
+				F607C8CF1F4CF1750003493D /* Army.swift */,
+			);
+			path = "Save The Princess";
+			sourceTree = "<group>";
+		};
+		F607C8AB1F4CCA370003493D /* Save The PrincessTests */ = {
+			isa = PBXGroup;
+			children = (
+				F607C8AC1F4CCA370003493D /* Save_The_PrincessTests.swift */,
+				F607C8AE1F4CCA370003493D /* Info.plist */,
+			);
+			path = "Save The PrincessTests";
+			sourceTree = "<group>";
+		};
+		F607C8B61F4CCA370003493D /* Save The PrincessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F607C8B71F4CCA370003493D /* Save_The_PrincessUITests.swift */,
+				F607C8B91F4CCA370003493D /* Info.plist */,
+			);
+			path = "Save The PrincessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F607C8901F4CCA370003493D /* Save The Princess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F607C8BC1F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The Princess" */;
+			buildPhases = (
+				BA8A8AD9EC35B17EB81C1E78 /* [CP] Check Pods Manifest.lock */,
+				F607C88D1F4CCA370003493D /* Sources */,
+				F607C88E1F4CCA370003493D /* Frameworks */,
+				F607C88F1F4CCA370003493D /* Resources */,
+				3A033C2FD6EE7F72CEEF6B27 /* [CP] Embed Pods Frameworks */,
+				411A31587D4350123F82DDB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Save The Princess";
+			productName = "Save The Princess";
+			productReference = F607C8911F4CCA370003493D /* Save The Princess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F607C8A71F4CCA370003493D /* Save The PrincessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F607C8BF1F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The PrincessTests" */;
+			buildPhases = (
+				0BBE58D3099798DB340AC2DB /* [CP] Check Pods Manifest.lock */,
+				F607C8A41F4CCA370003493D /* Sources */,
+				F607C8A51F4CCA370003493D /* Frameworks */,
+				F607C8A61F4CCA370003493D /* Resources */,
+				8F7E5640793696F8A20BD2BB /* [CP] Embed Pods Frameworks */,
+				7664DFDCDFEB78493F50E887 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F607C8AA1F4CCA370003493D /* PBXTargetDependency */,
+			);
+			name = "Save The PrincessTests";
+			productName = "Save The PrincessTests";
+			productReference = F607C8A81F4CCA370003493D /* Save The PrincessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F607C8B21F4CCA370003493D /* Save The PrincessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F607C8C21F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The PrincessUITests" */;
+			buildPhases = (
+				9C65C3895594BCE9951524E5 /* [CP] Check Pods Manifest.lock */,
+				F607C8AF1F4CCA370003493D /* Sources */,
+				F607C8B01F4CCA370003493D /* Frameworks */,
+				F607C8B11F4CCA370003493D /* Resources */,
+				048F226CBA5ACFD3EBF90E32 /* [CP] Embed Pods Frameworks */,
+				7C4628331FADE2C0CA999323 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F607C8B51F4CCA370003493D /* PBXTargetDependency */,
+			);
+			name = "Save The PrincessUITests";
+			productName = "Save The PrincessUITests";
+			productReference = F607C8B31F4CCA370003493D /* Save The PrincessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F607C8891F4CCA370003493D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VCousien;
+				TargetAttributes = {
+					F607C8901F4CCA370003493D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F607C8A71F4CCA370003493D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F607C8901F4CCA370003493D;
+					};
+					F607C8B21F4CCA370003493D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F607C8901F4CCA370003493D;
+					};
+				};
+			};
+			buildConfigurationList = F607C88C1F4CCA370003493D /* Build configuration list for PBXProject "Save The Princess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F607C8881F4CCA370003493D;
+			productRefGroup = F607C8921F4CCA370003493D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F607C8901F4CCA370003493D /* Save The Princess */,
+				F607C8A71F4CCA370003493D /* Save The PrincessTests */,
+				F607C8B21F4CCA370003493D /* Save The PrincessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F607C88F1F4CCA370003493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607C8A21F4CCA370003493D /* LaunchScreen.storyboard in Resources */,
+				F607C89F1F4CCA370003493D /* Assets.xcassets in Resources */,
+				F607C89A1F4CCA370003493D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8A61F4CCA370003493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8B11F4CCA370003493D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048F226CBA5ACFD3EBF90E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BBE58D3099798DB340AC2DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A033C2FD6EE7F72CEEF6B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The Princess/Pods-Save The Princess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		411A31587D4350123F82DDB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The Princess/Pods-Save The Princess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7664DFDCDFEB78493F50E887 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4628331FADE2C0CA999323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7E5640793696F8A20BD2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C65C3895594BCE9951524E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8A8AD9EC35B17EB81C1E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F607C88D1F4CCA370003493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607C8971F4CCA370003493D /* LandingViewController.swift in Sources */,
+				F607C8CA1F4CCE900003493D /* Door.swift in Sources */,
+				F607C8C81F4CCC100003493D /* Gender.swift in Sources */,
+				F607C8D01F4CF1750003493D /* Army.swift in Sources */,
+				F607C8951F4CCA370003493D /* AppDelegate.swift in Sources */,
+				F607C8C61F4CCB5C0003493D /* Soldier.swift in Sources */,
+				F607C89D1F4CCA370003493D /* Save_The_Princess.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8A41F4CCA370003493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607C8AD1F4CCA370003493D /* Save_The_PrincessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F607C8AF1F4CCA370003493D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607C8B81F4CCA370003493D /* Save_The_PrincessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F607C8AA1F4CCA370003493D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F607C8901F4CCA370003493D /* Save The Princess */;
+			targetProxy = F607C8A91F4CCA370003493D /* PBXContainerItemProxy */;
+		};
+		F607C8B51F4CCA370003493D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F607C8901F4CCA370003493D /* Save The Princess */;
+			targetProxy = F607C8B41F4CCA370003493D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F607C8981F4CCA370003493D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F607C8991F4CCA370003493D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F607C8A01F4CCA370003493D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F607C8A11F4CCA370003493D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F607C8BA1F4CCA370003493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F607C8BB1F4CCA370003493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F607C8BD1F4CCA370003493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69417AC8F2EC95FC945BDD /* Pods-Save The Princess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Save The Princess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-Princess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F607C8BE1F4CCA370003493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5697FED3B3E17FBED4D40D /* Pods-Save The Princess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Save The Princess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-Princess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F607C8C01F4CCA370003493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D5AB27F7DC989ADE677696 /* Pods-Save The PrincessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Save The PrincessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-PrincessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Save The Princess.app/Save The Princess";
+			};
+			name = Debug;
+		};
+		F607C8C11F4CCA370003493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A73A25EE9DCEE3251648113 /* Pods-Save The PrincessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Save The PrincessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-PrincessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Save The Princess.app/Save The Princess";
+			};
+			name = Release;
+		};
+		F607C8C31F4CCA370003493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30AC6EADE1DFA0E0BAF2E07 /* Pods-Save The PrincessUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Save The PrincessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-PrincessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Save The Princess";
+			};
+			name = Debug;
+		};
+		F607C8C41F4CCA370003493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDF8CE1B994448F9A005C36 /* Pods-Save The PrincessUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Save The PrincessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VCousien.Save-The-PrincessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Save The Princess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F607C88C1F4CCA370003493D /* Build configuration list for PBXProject "Save The Princess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F607C8BA1F4CCA370003493D /* Debug */,
+				F607C8BB1F4CCA370003493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F607C8BC1F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The Princess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F607C8BD1F4CCA370003493D /* Debug */,
+				F607C8BE1F4CCA370003493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F607C8BF1F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The PrincessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F607C8C01F4CCA370003493D /* Debug */,
+				F607C8C11F4CCA370003493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F607C8C21F4CCA370003493D /* Build configuration list for PBXNativeTarget "Save The PrincessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F607C8C31F4CCA370003493D /* Debug */,
+				F607C8C41F4CCA370003493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F607C89B1F4CCA370003493D /* Save_The_Princess.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F607C89C1F4CCA370003493D /* Save_The_Princess.xcdatamodel */,
+			);
+			currentVersion = F607C89C1F4CCA370003493D /* Save_The_Princess.xcdatamodel */;
+			path = Save_The_Princess.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F607C8891F4CCA370003493D /* Project object */;
+}

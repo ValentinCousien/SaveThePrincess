@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032578989DA634D5269F0EA28F54924F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0BFEC77971CEAA9EC7B8E1DC59CA80BB /* Pods-Save The PrincessUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A353CCC579EF527B550782FD3BE16CF /* Pods-Save The PrincessUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E702EB9676CDE12FB786C0E406D01B /* Pods-Save The PrincessTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E97C66AEFD9D082CE5829EFBD3023E /* Pods-Save The PrincessTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC05D28A14305F2BD422D0CD6C36F44 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899CEBAA30DA7FABFA703117CB55C87 /* SVGView.swift */; };
+		4686A027A5C311366E51A6542976733A /* UIView+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C159A635EF754447046AA03135A30 /* UIView+SVG.swift */; };
+		47E3427E2B55E77D5684DD87F3112A53 /* CAShapeLayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32FD82F5758EBA7D01158C46895BBD0 /* CAShapeLayer+SVG.swift */; };
+		4C3BB0A8D21B8018ADF5B672671060B5 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6B893302ED88CBF3128973913A93E /* UIColor+Extensions.swift */; };
+		4F68B115B10EDB38EE1D656BCB0E33F9 /* NSBezierPath+CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B8D70C5A168D784A860367E9B2626 /* NSBezierPath+CrossPlatform.swift */; };
+		633C8BDBF7836929898899768E66652E /* SwiftSVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB70BEC68E781E0CF580F4CF68A49A /* SwiftSVG-dummy.m */; };
+		67E9D070EF3D2A7CE684A44AF6E81083 /* Dictionary+KeyForValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB25105556EAF69B1560576A2F6B3933 /* Dictionary+KeyForValue.swift */; };
+		7B20D1731ED63253D79B684A13948464 /* String+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25348E01A833C041FA1229D88FB8FE4 /* String+SVG.swift */; };
+		83B9B854B9D805BC1B218D7596F7F013 /* SwiftSVG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D82F09A0EE5D017160C67528446769E /* SwiftSVG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C27506D87C502896649CF74CA48C1A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D81E4A59FBA8190B0EB69996224B14B /* Stack.swift */; };
+		9FA160769B81E0AB8C9CCB23CDDABB03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A4458FCE5A9EC97C01EB28D5D3F885F1 /* Pods-Save The Princess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60183A0C9C1F3FF8D158097CE1E7E0F6 /* Pods-Save The Princess-dummy.m */; };
+		AC1EAEE75E3B16F8C8F5190652760BF5 /* String+ToHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98A039BAB64B21D6C3A711AC890CCC /* String+ToHex.swift */; };
+		AD457E65BC68CB0B317299F389ACEA61 /* Pods-Save The PrincessTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB55EB5C4DC459E05255E6FD893B64 /* Pods-Save The PrincessTests-dummy.m */; };
+		B1579FDC530524A6F628F3D3F405935D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B54B9583F1A4BA18A81D15A8827B95D7 /* Pods-Save The Princess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7C4FF0C40CA7D876297A5D158F6054 /* Pods-Save The Princess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE87485D92EE19FAAF2DA8C69183CE56 /* Pods-Save The PrincessUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 238EAB21A53E316962566B834757A5D0 /* Pods-Save The PrincessUITests-dummy.m */; };
+		D2FDA467542505CA10205B37B51A2EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D5916136DFB76F80BBD37B30766F0653 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606A8BD6AA4E00EAB50D5E6465C9E63 /* String+Subscript.swift */; };
+		E6E83740472D05F213BE13A0371EED2E /* UIBezierPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE08A50959D1F29002F0E8A8A2C5B /* UIBezierPath+SVG.swift */; };
+		EC4F9C969374E65F17B4184BB88743E8 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700C5046FDC45E23916F0DC4FC5F198 /* CrossPlatform.swift */; };
+		F3488E077668DECEE0F2DB46CADD6CD9 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E9C1BD5E742AA6321541FCE45D0DA /* NSObject+Extensions.swift */; };
+		FA0126D530EB2A996434366434D33639 /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA9B378055E2BA95AAC2263123329 /* SVGParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31D993EEA7C8DABCB9C58ACF7BC00782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE5D5F2FF49648FEDEF34604E432533;
+			remoteInfo = SwiftSVG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0056BB2C21F8FF0942F02850D0E80CFA /* Pods-Save The PrincessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The PrincessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02CB70BEC68E781E0CF580F4CF68A49A /* SwiftSVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSVG-dummy.m"; sourceTree = "<group>"; };
+		092A2CC7CCBECC15A4B62A372597425E /* SwiftSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSVG.framework; path = SwiftSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEA9B378055E2BA95AAC2263123329 /* SVGParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParser.swift; path = SwiftSVG/SVGParser.swift; sourceTree = "<group>"; };
+		0A353CCC579EF527B550782FD3BE16CF /* Pods-Save The PrincessUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Save The PrincessUITests-umbrella.h"; sourceTree = "<group>"; };
+		0D5C20F4620CB12FEA59676760E12FC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF67FE1E848A05486F28E20389518B7 /* Pods-Save The PrincessUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The PrincessUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1547E4538F4A49F65A9F4A2D51BB8296 /* SwiftSVG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSVG.modulemap; sourceTree = "<group>"; };
+		1AC662BBDA37371E4EE03EBDECD7F954 /* Pods-Save The PrincessTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Save The PrincessTests.modulemap"; sourceTree = "<group>"; };
+		1C108BF76BF5F657CA89960C5F7D8C32 /* Pods-Save The PrincessTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Save The PrincessTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22AB55EB5C4DC459E05255E6FD893B64 /* Pods-Save The PrincessTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Save The PrincessTests-dummy.m"; sourceTree = "<group>"; };
+		238EAB21A53E316962566B834757A5D0 /* Pods-Save The PrincessUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Save The PrincessUITests-dummy.m"; sourceTree = "<group>"; };
+		28C5168188DAFA2FDAB41A546D82C88A /* Pods_Save_The_PrincessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Save_The_PrincessUITests.framework; path = "Pods-Save The PrincessUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE50FC73BAEB6B8D5D7D71281B563C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4E9C1BD5E742AA6321541FCE45D0DA /* NSObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Extensions.swift"; path = "SwiftSVG/NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		2F7C4FF0C40CA7D876297A5D158F6054 /* Pods-Save The Princess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Save The Princess-umbrella.h"; sourceTree = "<group>"; };
+		338BBB13B7A70264AB4EBF74BC72A8EF /* Pods-Save The PrincessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The PrincessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39E09BE25A8E515AF78AEF50C7520265 /* Pods-Save The Princess-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Save The Princess-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4606A8BD6AA4E00EAB50D5E6465C9E63 /* String+Subscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Subscript.swift"; path = "SwiftSVG/String+Subscript.swift"; sourceTree = "<group>"; };
+		4C98A039BAB64B21D6C3A711AC890CCC /* String+ToHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ToHex.swift"; path = "SwiftSVG/String+ToHex.swift"; sourceTree = "<group>"; };
+		535BDB568CB78DE6756F1DA12C14E13F /* Pods-Save The Princess-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The Princess-frameworks.sh"; sourceTree = "<group>"; };
+		549B01A9E076C4FDD1438EF0B7A83BD5 /* Pods-Save The PrincessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The PrincessTests.release.xcconfig"; sourceTree = "<group>"; };
+		60183A0C9C1F3FF8D158097CE1E7E0F6 /* Pods-Save The Princess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Save The Princess-dummy.m"; sourceTree = "<group>"; };
+		67456D47EBE8D62003B61A12754722F7 /* Pods-Save The Princess-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Save The Princess-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D81E4A59FBA8190B0EB69996224B14B /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = SwiftSVG/Stack.swift; sourceTree = "<group>"; };
+		6E4713F4ACDCE438629C1678C5A356F2 /* Pods-Save The PrincessUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Save The PrincessUITests.modulemap"; sourceTree = "<group>"; };
+		71F6B893302ED88CBF3128973913A93E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "SwiftSVG/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		7899CEBAA30DA7FABFA703117CB55C87 /* SVGView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGView.swift; path = SwiftSVG/SVGView.swift; sourceTree = "<group>"; };
+		7D82F09A0EE5D017160C67528446769E /* SwiftSVG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSVG-umbrella.h"; sourceTree = "<group>"; };
+		7EE2337C3478C20EED6AF3BF79F84CD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9F03F2AE3EACFDAE2D1941FB5403DC /* Pods-Save The Princess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The Princess.release.xcconfig"; sourceTree = "<group>"; };
+		8E433DAB14D53DF9B577CC5552CD0155 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915C159A635EF754447046AA03135A30 /* UIView+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SVG.swift"; path = "SwiftSVG/UIView+SVG.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		997D31807B128DDCA329A28403FE6321 /* Pods_Save_The_PrincessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Save_The_PrincessTests.framework; path = "Pods-Save The PrincessTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A624F941F5D37DA50D865DB7444BC7D /* Pods-Save The PrincessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The PrincessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F785038327D49EC4A7637B1D422B3EC /* Pods-Save The PrincessTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The PrincessTests-frameworks.sh"; sourceTree = "<group>"; };
+		A4335C00FCBCE06735CFCB2E1CBDFCB4 /* Pods-Save The PrincessUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Save The PrincessUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A509308461673D04E41DB383DD31AB1F /* SwiftSVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSVG-prefix.pch"; sourceTree = "<group>"; };
+		A51A22F75F8ADCE4247BB2D78A3798FA /* Pods-Save The PrincessUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Save The PrincessUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD8E4F657A8ABD1EC4588F6BF3771026 /* Pods-Save The PrincessUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The PrincessUITests-resources.sh"; sourceTree = "<group>"; };
+		AED95FE4354DECF199CC4B1AD16A9694 /* SwiftSVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSVG.xcconfig; sourceTree = "<group>"; };
+		B25348E01A833C041FA1229D88FB8FE4 /* String+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SVG.swift"; path = "SwiftSVG/String+SVG.swift"; sourceTree = "<group>"; };
+		B9276A74A3FFF7BB442A8713EB74B2CB /* Pods-Save The PrincessTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The PrincessTests-resources.sh"; sourceTree = "<group>"; };
+		BB25105556EAF69B1560576A2F6B3933 /* Dictionary+KeyForValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+KeyForValue.swift"; path = "SwiftSVG/Dictionary+KeyForValue.swift"; sourceTree = "<group>"; };
+		BE20CD7F70351F33D31FA1A10581C704 /* Pods-Save The PrincessTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Save The PrincessTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0214FB2E3BDDBB4FEB4AE1C3F6FAAEB /* Pods_Save_The_Princess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Save_The_Princess.framework; path = "Pods-Save The Princess.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E97C66AEFD9D082CE5829EFBD3023E /* Pods-Save The PrincessTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Save The PrincessTests-umbrella.h"; sourceTree = "<group>"; };
+		C7FDE08A50959D1F29002F0E8A8A2C5B /* UIBezierPath+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+SVG.swift"; path = "SwiftSVG/UIBezierPath+SVG.swift"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC83DE0452A8DD20352C5A6ECE77069B /* Pods-Save The Princess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Save The Princess.debug.xcconfig"; sourceTree = "<group>"; };
+		D32FD82F5758EBA7D01158C46895BBD0 /* CAShapeLayer+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+SVG.swift"; path = "SwiftSVG/CAShapeLayer+SVG.swift"; sourceTree = "<group>"; };
+		E700C5046FDC45E23916F0DC4FC5F198 /* CrossPlatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossPlatform.swift; path = SwiftSVG/CrossPlatform.swift; sourceTree = "<group>"; };
+		EA4B8D70C5A168D784A860367E9B2626 /* NSBezierPath+CrossPlatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBezierPath+CrossPlatform.swift"; path = "SwiftSVG/NSBezierPath+CrossPlatform.swift"; sourceTree = "<group>"; };
+		EB0A626016F17B81DD6AD8B9B776F03A /* Pods-Save The Princess-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Save The Princess-resources.sh"; sourceTree = "<group>"; };
+		FBF729ECE5B0D6497E02FBFE45C4503B /* Pods-Save The Princess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Save The Princess.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FD4E5391E866B4BF12088E2218B3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1579FDC530524A6F628F3D3F405935D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933279436D6D8B1C4376316BA6861059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FDA467542505CA10205B37B51A2EEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86AEF82FF658AAAFBE17AB96AF998E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032578989DA634D5269F0EA28F54924F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1326F3C817B0A6F48FA3DA3F900D958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA160769B81E0AB8C9CCB23CDDABB03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D52FA3E1EB66E1E0F36B97A9101C2A /* Pods-Save The PrincessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE2337C3478C20EED6AF3BF79F84CD0 /* Info.plist */,
+				6E4713F4ACDCE438629C1678C5A356F2 /* Pods-Save The PrincessUITests.modulemap */,
+				A4335C00FCBCE06735CFCB2E1CBDFCB4 /* Pods-Save The PrincessUITests-acknowledgements.markdown */,
+				A51A22F75F8ADCE4247BB2D78A3798FA /* Pods-Save The PrincessUITests-acknowledgements.plist */,
+				238EAB21A53E316962566B834757A5D0 /* Pods-Save The PrincessUITests-dummy.m */,
+				0FF67FE1E848A05486F28E20389518B7 /* Pods-Save The PrincessUITests-frameworks.sh */,
+				AD8E4F657A8ABD1EC4588F6BF3771026 /* Pods-Save The PrincessUITests-resources.sh */,
+				0A353CCC579EF527B550782FD3BE16CF /* Pods-Save The PrincessUITests-umbrella.h */,
+				9A624F941F5D37DA50D865DB7444BC7D /* Pods-Save The PrincessUITests.debug.xcconfig */,
+				0056BB2C21F8FF0942F02850D0E80CFA /* Pods-Save The PrincessUITests.release.xcconfig */,
+			);
+			name = "Pods-Save The PrincessUITests";
+			path = "Target Support Files/Pods-Save The PrincessUITests";
+			sourceTree = "<group>";
+		};
+		1A80FCFDFD7FF3334A6C132B38F42A81 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AB6F890A3B8EE0A772388047AFD5D /* Pods-Save The Princess */,
+				BEC7BFEE85497347DC5CA4436BEE41FF /* Pods-Save The PrincessTests */,
+				12D52FA3E1EB66E1E0F36B97A9101C2A /* Pods-Save The PrincessUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1B07B518BA0252D89125289911A3CE6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0214FB2E3BDDBB4FEB4AE1C3F6FAAEB /* Pods_Save_The_Princess.framework */,
+				997D31807B128DDCA329A28403FE6321 /* Pods_Save_The_PrincessTests.framework */,
+				28C5168188DAFA2FDAB41A546D82C88A /* Pods_Save_The_PrincessUITests.framework */,
+				092A2CC7CCBECC15A4B62A372597425E /* SwiftSVG.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6E20D04203E776AB43E5CBA69E9553 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C20F4620CB12FEA59676760E12FC6 /* Info.plist */,
+				1547E4538F4A49F65A9F4A2D51BB8296 /* SwiftSVG.modulemap */,
+				AED95FE4354DECF199CC4B1AD16A9694 /* SwiftSVG.xcconfig */,
+				02CB70BEC68E781E0CF580F4CF68A49A /* SwiftSVG-dummy.m */,
+				A509308461673D04E41DB383DD31AB1F /* SwiftSVG-prefix.pch */,
+				7D82F09A0EE5D017160C67528446769E /* SwiftSVG-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSVG";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				836DE9DE477F0824D69C987B41C1E485 /* Pods */,
+				1B07B518BA0252D89125289911A3CE6B /* Products */,
+				1A80FCFDFD7FF3334A6C132B38F42A81 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		836DE9DE477F0824D69C987B41C1E485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0649C7E517CCB5FAE162C8D60120C /* SwiftSVG */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1AB6F890A3B8EE0A772388047AFD5D /* Pods-Save The Princess */ = {
+			isa = PBXGroup;
+			children = (
+				8E433DAB14D53DF9B577CC5552CD0155 /* Info.plist */,
+				FBF729ECE5B0D6497E02FBFE45C4503B /* Pods-Save The Princess.modulemap */,
+				39E09BE25A8E515AF78AEF50C7520265 /* Pods-Save The Princess-acknowledgements.markdown */,
+				67456D47EBE8D62003B61A12754722F7 /* Pods-Save The Princess-acknowledgements.plist */,
+				60183A0C9C1F3FF8D158097CE1E7E0F6 /* Pods-Save The Princess-dummy.m */,
+				535BDB568CB78DE6756F1DA12C14E13F /* Pods-Save The Princess-frameworks.sh */,
+				EB0A626016F17B81DD6AD8B9B776F03A /* Pods-Save The Princess-resources.sh */,
+				2F7C4FF0C40CA7D876297A5D158F6054 /* Pods-Save The Princess-umbrella.h */,
+				CC83DE0452A8DD20352C5A6ECE77069B /* Pods-Save The Princess.debug.xcconfig */,
+				7F9F03F2AE3EACFDAE2D1941FB5403DC /* Pods-Save The Princess.release.xcconfig */,
+			);
+			name = "Pods-Save The Princess";
+			path = "Target Support Files/Pods-Save The Princess";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC7BFEE85497347DC5CA4436BEE41FF /* Pods-Save The PrincessTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE50FC73BAEB6B8D5D7D71281B563C7 /* Info.plist */,
+				1AC662BBDA37371E4EE03EBDECD7F954 /* Pods-Save The PrincessTests.modulemap */,
+				BE20CD7F70351F33D31FA1A10581C704 /* Pods-Save The PrincessTests-acknowledgements.markdown */,
+				1C108BF76BF5F657CA89960C5F7D8C32 /* Pods-Save The PrincessTests-acknowledgements.plist */,
+				22AB55EB5C4DC459E05255E6FD893B64 /* Pods-Save The PrincessTests-dummy.m */,
+				9F785038327D49EC4A7637B1D422B3EC /* Pods-Save The PrincessTests-frameworks.sh */,
+				B9276A74A3FFF7BB442A8713EB74B2CB /* Pods-Save The PrincessTests-resources.sh */,
+				C1E97C66AEFD9D082CE5829EFBD3023E /* Pods-Save The PrincessTests-umbrella.h */,
+				338BBB13B7A70264AB4EBF74BC72A8EF /* Pods-Save The PrincessTests.debug.xcconfig */,
+				549B01A9E076C4FDD1438EF0B7A83BD5 /* Pods-Save The PrincessTests.release.xcconfig */,
+			);
+			name = "Pods-Save The PrincessTests";
+			path = "Target Support Files/Pods-Save The PrincessTests";
+			sourceTree = "<group>";
+		};
+		EDC0649C7E517CCB5FAE162C8D60120C /* SwiftSVG */ = {
+			isa = PBXGroup;
+			children = (
+				D32FD82F5758EBA7D01158C46895BBD0 /* CAShapeLayer+SVG.swift */,
+				E700C5046FDC45E23916F0DC4FC5F198 /* CrossPlatform.swift */,
+				BB25105556EAF69B1560576A2F6B3933 /* Dictionary+KeyForValue.swift */,
+				EA4B8D70C5A168D784A860367E9B2626 /* NSBezierPath+CrossPlatform.swift */,
+				2E4E9C1BD5E742AA6321541FCE45D0DA /* NSObject+Extensions.swift */,
+				6D81E4A59FBA8190B0EB69996224B14B /* Stack.swift */,
+				4606A8BD6AA4E00EAB50D5E6465C9E63 /* String+Subscript.swift */,
+				B25348E01A833C041FA1229D88FB8FE4 /* String+SVG.swift */,
+				4C98A039BAB64B21D6C3A711AC890CCC /* String+ToHex.swift */,
+				09FEA9B378055E2BA95AAC2263123329 /* SVGParser.swift */,
+				7899CEBAA30DA7FABFA703117CB55C87 /* SVGView.swift */,
+				C7FDE08A50959D1F29002F0E8A8A2C5B /* UIBezierPath+SVG.swift */,
+				71F6B893302ED88CBF3128973913A93E /* UIColor+Extensions.swift */,
+				915C159A635EF754447046AA03135A30 /* UIView+SVG.swift */,
+				2B6E20D04203E776AB43E5CBA69E9553 /* Support Files */,
+			);
+			name = SwiftSVG;
+			path = SwiftSVG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACCDF65931C30AFD80D5CFDE74023092 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B9B854B9D805BC1B218D7596F7F013 /* SwiftSVG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD22185709E9309C7249367E5793BCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFEC77971CEAA9EC7B8E1DC59CA80BB /* Pods-Save The PrincessUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B3185FEDA929A9037FFF41C7DAC005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E702EB9676CDE12FB786C0E406D01B /* Pods-Save The PrincessTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95180D07F628BE6279E4710BA280C2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54B9583F1A4BA18A81D15A8827B95D7 /* Pods-Save The Princess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29CA1AB647F5877833BEA8C1DB4EF3B5 /* Pods-Save The PrincessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E804101DB6A05C8D674BAB4561AEDAC7 /* Build configuration list for PBXNativeTarget "Pods-Save The PrincessUITests" */;
+			buildPhases = (
+				360049B105014E0BC40A3E2D592B38F2 /* Sources */,
+				933279436D6D8B1C4376316BA6861059 /* Frameworks */,
+				ADD22185709E9309C7249367E5793BCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Save The PrincessUITests";
+			productName = "Pods-Save The PrincessUITests";
+			productReference = 28C5168188DAFA2FDAB41A546D82C88A /* Pods_Save_The_PrincessUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3578758F296324EB215E6187CE401FC9 /* Pods-Save The Princess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8BA562201F0BC29D34A55AF50A0E35 /* Build configuration list for PBXNativeTarget "Pods-Save The Princess" */;
+			buildPhases = (
+				5C2E67BC2AB973BF232A9A37186D5B46 /* Sources */,
+				D1326F3C817B0A6F48FA3DA3F900D958 /* Frameworks */,
+				E95180D07F628BE6279E4710BA280C2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84836CC8E0333695EE84177E19ECD015 /* PBXTargetDependency */,
+			);
+			name = "Pods-Save The Princess";
+			productName = "Pods-Save The Princess";
+			productReference = C0214FB2E3BDDBB4FEB4AE1C3F6FAAEB /* Pods_Save_The_Princess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DE5D5F2FF49648FEDEF34604E432533 /* SwiftSVG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588760BB5193CAB3CA0A5FF2A64299E6 /* Build configuration list for PBXNativeTarget "SwiftSVG" */;
+			buildPhases = (
+				4C21B3B926BB6694F491653613DDC8F6 /* Sources */,
+				04FD4E5391E866B4BF12088E2218B3B1 /* Frameworks */,
+				ACCDF65931C30AFD80D5CFDE74023092 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSVG;
+			productName = SwiftSVG;
+			productReference = 092A2CC7CCBECC15A4B62A372597425E /* SwiftSVG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5BC7BE7917987F35254832E0188A71A /* Pods-Save The PrincessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49D62ED23C1EA65B70D8EEA657DA953 /* Build configuration list for PBXNativeTarget "Pods-Save The PrincessTests" */;
+			buildPhases = (
+				2E41CA5B61BBD99E47CAF10D56EFFFAF /* Sources */,
+				C86AEF82FF658AAAFBE17AB96AF998E9 /* Frameworks */,
+				B8B3185FEDA929A9037FFF41C7DAC005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Save The PrincessTests";
+			productName = "Pods-Save The PrincessTests";
+			productReference = 997D31807B128DDCA329A28403FE6321 /* Pods_Save_The_PrincessTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B07B518BA0252D89125289911A3CE6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3578758F296324EB215E6187CE401FC9 /* Pods-Save The Princess */,
+				F5BC7BE7917987F35254832E0188A71A /* Pods-Save The PrincessTests */,
+				29CA1AB647F5877833BEA8C1DB4EF3B5 /* Pods-Save The PrincessUITests */,
+				9DE5D5F2FF49648FEDEF34604E432533 /* SwiftSVG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E41CA5B61BBD99E47CAF10D56EFFFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD457E65BC68CB0B317299F389ACEA61 /* Pods-Save The PrincessTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360049B105014E0BC40A3E2D592B38F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE87485D92EE19FAAF2DA8C69183CE56 /* Pods-Save The PrincessUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C21B3B926BB6694F491653613DDC8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E3427E2B55E77D5684DD87F3112A53 /* CAShapeLayer+SVG.swift in Sources */,
+				EC4F9C969374E65F17B4184BB88743E8 /* CrossPlatform.swift in Sources */,
+				67E9D070EF3D2A7CE684A44AF6E81083 /* Dictionary+KeyForValue.swift in Sources */,
+				4F68B115B10EDB38EE1D656BCB0E33F9 /* NSBezierPath+CrossPlatform.swift in Sources */,
+				F3488E077668DECEE0F2DB46CADD6CD9 /* NSObject+Extensions.swift in Sources */,
+				94C27506D87C502896649CF74CA48C1A /* Stack.swift in Sources */,
+				D5916136DFB76F80BBD37B30766F0653 /* String+Subscript.swift in Sources */,
+				7B20D1731ED63253D79B684A13948464 /* String+SVG.swift in Sources */,
+				AC1EAEE75E3B16F8C8F5190652760BF5 /* String+ToHex.swift in Sources */,
+				FA0126D530EB2A996434366434D33639 /* SVGParser.swift in Sources */,
+				3CC05D28A14305F2BD422D0CD6C36F44 /* SVGView.swift in Sources */,
+				633C8BDBF7836929898899768E66652E /* SwiftSVG-dummy.m in Sources */,
+				E6E83740472D05F213BE13A0371EED2E /* UIBezierPath+SVG.swift in Sources */,
+				4C3BB0A8D21B8018ADF5B672671060B5 /* UIColor+Extensions.swift in Sources */,
+				4686A027A5C311366E51A6542976733A /* UIView+SVG.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2E67BC2AB973BF232A9A37186D5B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4458FCE5A9EC97C01EB28D5D3F885F1 /* Pods-Save The Princess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84836CC8E0333695EE84177E19ECD015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSVG;
+			target = 9DE5D5F2FF49648FEDEF34604E432533 /* SwiftSVG */;
+			targetProxy = 31D993EEA7C8DABCB9C58ACF7BC00782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6954507A84534F8EFBB947E5AFFD7205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED95FE4354DECF199CC4B1AD16A9694 /* SwiftSVG.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSVG/SwiftSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSVG/SwiftSVG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A48ADBB9F80C684152186354E05359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC83DE0452A8DD20352C5A6ECE77069B /* Pods-Save The Princess.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The Princess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The Princess/Pods-Save The Princess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_Princess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75B85320FCFC472CBF5EF86B60A5A6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0056BB2C21F8FF0942F02850D0E80CFA /* Pods-Save The PrincessUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The PrincessUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_PrincessUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D0AD890B8EC0E7E21110FDBB73E410B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549B01A9E076C4FDD1438EF0B7A83BD5 /* Pods-Save The PrincessTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The PrincessTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_PrincessTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6F8A5A66D502EE4FCD4EDEE181E554A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED95FE4354DECF199CC4B1AD16A9694 /* SwiftSVG.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSVG/SwiftSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSVG/SwiftSVG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8720886CBBA66370B7B5BA478528F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338BBB13B7A70264AB4EBF74BC72A8EF /* Pods-Save The PrincessTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The PrincessTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The PrincessTests/Pods-Save The PrincessTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_PrincessTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC0F673982E4DE37FDD21F7D5D8C36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9F03F2AE3EACFDAE2D1941FB5403DC /* Pods-Save The Princess.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The Princess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The Princess/Pods-Save The Princess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_Princess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2AA485489995CA2C6664BFFC4D84390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A624F941F5D37DA50D865DB7444BC7D /* Pods-Save The PrincessUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Save The PrincessUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Save The PrincessUITests/Pods-Save The PrincessUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Save_The_PrincessUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588760BB5193CAB3CA0A5FF2A64299E6 /* Build configuration list for PBXNativeTarget "SwiftSVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F8A5A66D502EE4FCD4EDEE181E554A /* Debug */,
+				6954507A84534F8EFBB947E5AFFD7205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8BA562201F0BC29D34A55AF50A0E35 /* Build configuration list for PBXNativeTarget "Pods-Save The Princess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A48ADBB9F80C684152186354E05359B /* Debug */,
+				DC0F673982E4DE37FDD21F7D5D8C36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49D62ED23C1EA65B70D8EEA657DA953 /* Build configuration list for PBXNativeTarget "Pods-Save The PrincessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8720886CBBA66370B7B5BA478528F57 /* Debug */,
+				9D0AD890B8EC0E7E21110FDBB73E410B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E804101DB6A05C8D674BAB4561AEDAC7 /* Build configuration list for PBXNativeTarget "Pods-Save The PrincessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AA485489995CA2C6664BFFC4D84390 /* Debug */,
+				75B85320FCFC472CBF5EF86B60A5A6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
